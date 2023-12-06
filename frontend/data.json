@@ -1,0 +1,29 @@
+{
+    "participatesCount": 180,
+    "selectedParticipates": 0,
+    "customParticipates": {
+      "selectZero": false
+    },
+    "participatesSelection": {
+      "selectAll": true,
+      "customers": false,
+      "leads": false,
+      "externalData": false
+    },
+    "dropdownValues": {
+      "sourceType": "Store",
+      "sourceName": "All(11)",
+      "includeTag": "Store",
+      "excludeTag": "UPI"
+    },
+    "purchaseHistory": {
+        "participatesSpent": true,
+        "spentMoreThan": "More",
+        "spentOnceLastDays": "1000",
+        "Count":"ONCE",
+        "spentCount": "1",
+        "spentType": "Day(s)"
+    },
+    "frequencyOfVisit": 40
+  }
+  

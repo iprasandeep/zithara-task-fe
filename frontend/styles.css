@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border-bottom: solid gray 1px;
+    -webkit-box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+    -moz-box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+    box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+}
+.blue{
+    color: rgb(7, 8, 98);
+    padding: 5px;
+}
+.green{
+    color: green;
+    padding: 5px;
+}
+.right{
+    width:50%;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+.left{
+    width:50%;
+    border-right: 1px solid gray;
+}
+
+.participants-details{
+    width:90%;
+    margin: 20px auto;
+    padding: 40px;
+    -webkit-box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+    -moz-box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+    box-shadow: 1px 12px 12px -10px rgba(148,148,148,1);
+}
+.btns{
+    position: absolute;
+    right:90px;
+    display: flex;
+    gap: 10px;
+}
+.clear-btn{
+    color:  rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background:rgba(255, 0, 43, 0.783)
+   
+}
+.clear-btn:hover{
+    transition: 0.3s;
+    background:rgb(255, 0, 43)
+}
+.filter-btn{
+    color:  rgb(33, 103, 255);
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: rgb(129, 250, 148);
+}
+.filter-btn:hover{
+    transition: 0.3s;
+    background: rgb(36, 255, 69);
+}
+
+h4{
+    color: blue;
+    font-family: system-ui;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.zero-p{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+.participants-check{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: blue;
+    
+}
+.droping{
+    width: 6%;
+    height: 2rem;
+    gap: 10px;
+
+}
+.purchase-details{
+    display: inherit;
+    
+}
+
+.p-history, .droping{
+    width: 6%;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.freq-visit{
+    width: 4%;
+    height: 1.5rem;
+    text-align: center;
+}

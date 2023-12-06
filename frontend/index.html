@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zithara Task</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left"><h3><span class="blue"><i class="fa fa-group" style="font-size:20px"></i></span> Participates</h3><span id="participatesCount">loading...</span></div>
+            <div class="right"><h3><span class="green"><i class="fa fa-group" style="font-size:20px"></i></span>Selected Participates</h3><span id="selectedParticipatesCount">loading...</span></div>
+        </div>
+        <div class="participants-details">
+            <h4>Custom Participates</h4>
+            <div class="btns">
+                <button class="clear-btn" onclick="clearFields()"><i class="fa fa-remove" style="font-size:20px"></i></button>
+                <button class="filter-btn"><i class="fa fa-filter" style="font-size:20px"></i></button> 
+            </div>
+            <div class="zero-p">
+                <input type="checkbox" id="zeroParticipatesCheckbox">Select Zero Participates(Enter number in next step)
+            </div>
+            <h3>OR</h3>
+            <h4>Participates</h4>
+            <div class="participants-check">
+                <input type="checkbox" id="selectAllCheckbox">Select All Participates
+                <input type="checkbox" id="customersCheckbox">Customers
+                <input type="checkbox" id="leadsCheckbox">Leads
+                <input type="checkbox" id="externalDataCheckbox">External Data
+            </div>
+            
+            <div class="dropdown">
+                <label>Source type</label>
+                <select name="select" id="sourceTypeDropdown" class="droping"></select>
+                <label>Source Name</label>
+                <select name="select" id="sourceNameDropdown" class="droping"></select>
+                <label>Include Tag</label>
+                <select name="select" id="includeTagDropdown" class="droping"></select>
+                <label>Exclude Tag</label>
+                <select name="select" id="excludeTagDropdown" class="droping"></select>
+            </div>
+            <h4>Purchase History</h4>
+            <div class="purchase-details">
+                <input type="checkbox" id="participatesSpentCheckbox">Participates who have spent
+                <input class="p-history" type="text" id="spentMoreThanInput" disabled>than Rs. 
+                <input class="p-history" type="text" id="spentOnceInput" disabled>
+                <input type="text" class="p-history" id="Count" disabled>in last 
+                <input class="p-history" type="text" id="spentCount" disabled>
+                <input type="text" class="p-history" id="spentType" disabled>
+            </div>
+            <h4>Frequency of Visit</h4>
+            <input type="text" class="freq-visit" id="frequencyOfVisitInput" disabled>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
